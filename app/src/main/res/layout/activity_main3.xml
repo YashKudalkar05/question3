@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Info Screen!"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This app includes a Calculator and a Currency Converter. Use the Calculator to perform basic arithmetic operations and the Currency Converter to convert between different currencies."
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/buttonOpenCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Calculator" />
+
+    <Button
+        android:id="@+id/buttonOpenConverter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Currency Converter"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
